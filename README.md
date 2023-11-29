@@ -1,3 +1,5 @@
+<img width="800" src="doc/imgs/YOLOv5-cls.png" align="center">
+
 这是一个比较成熟的多头分类模型，经历了很多测试。当前版本已经接近最终版本。
 
 当前版本的特征提取网络借鉴了[yolov5-6.2](https://github.com/ultralytics/yolov5/tree/v6.2)改写。十分感谢作者作出的共享。
@@ -147,7 +149,7 @@ yolov5-cls作为应用在边缘设备上的二级模型，需要满足参数小�
 all_net = {"yolovv5_62cls_s":[yolov5n_cls_s, yolov5s_cls_s, yolov5l_cls_s,  yolov5m_cls_s,],
             "yolov5_62cls_m":[yolov5n_cls_m, yolov5s_cls_m, yolov5l_cls_m, yolov5m_cls_m,],
             "yolov5_62cls_l":[yolov5n_cls_l, yolov5s_cls_l, yolov5l_cls_l, yolov5m_cls_l],
-    
+      
             "yolov5_62cls_s_dp":[yolov5n_cls_s_dp, yolov5s_cls_s_dp, yolov5l_cls_s_dp, yolov5m_cls_s_dp,],
             "yolov5_62cls_m_dp":[yolov5n_cls_m_dp, yolov5s_cls_m_dp, yolov5l_cls_m_dp, yolov5m_cls_m_dp,],
             "yolov5_62cls_l_dp":[yolov5n_cls_l_dp, yolov5s_cls_l_dp, yolov5l_cls_l_dp, yolov5m_cls_l_dp],
@@ -155,7 +157,7 @@ all_net = {"yolovv5_62cls_s":[yolov5n_cls_s, yolov5s_cls_s, yolov5l_cls_s,  yolo
             "yolov5_62cls_s_dw":[yolov5n_cls_s_dw, yolov5s_cls_s_dw, yolov5l_cls_s_dw, yolov5m_cls_s_dw,],
             "yolov5_62cls_m_dw":[yolov5n_cls_m_dw, yolov5s_cls_m_dw, yolov5l_cls_m_dw, yolov5m_cls_m_dw,],
             "yolov5_62cls_l_dw":[yolov5n_cls_l_dw, yolov5s_cls_l_dw, yolov5l_cls_l_dw, yolov5m_cls_l_dw],
-    
+      
             "yolov5_62cls_st":[yolov5n_cls_st,yolov5s_cls_st,yolov5l_cls_st,yolov5m_cls_st],
             "yolov5_62cls_dw":[yolov5n_cls_dw,yolov5s_cls_dw,yolov5l_cls_dw,yolov5m_cls_dw],
             "yolov5_62cls_dp":[yolov5n_cls_dp,yolov5s_cls_dp,yolov5l_cls_dp,yolov5m_cls_dp],
